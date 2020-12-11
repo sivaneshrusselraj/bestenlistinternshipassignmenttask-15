@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script>
+            function numberCommas(num){
+                var numParts = num.tostring().split(".");
+                numParts[0] = numParts[0].replace(/\B(?=(\d{3})+(?!\d))/g,",");
+                return numParts.join(".");
+            }
+            console.log(numberCommas(1000));
+        </script>
+        </head>>
+        <body>
+            </body>>
+    </html>
